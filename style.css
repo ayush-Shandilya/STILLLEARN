@@ -195,6 +195,15 @@ a:hover::after {
     color: #32de84;
 }
 
+.content-4:hover {
+    border-color: #FF0000;
+    background: #FF0000;;
+}
+
+.content-4:hover a {
+    color: #FF0000;;
+}
+
 .content h2 {
     font-size: 30px;
     margin: 16px 0;
