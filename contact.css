@@ -1,0 +1,91 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #59abe3;
+  background: linear-gradient(#8b93ea, #474fa4);
+}
+.form {
+  width: 400px;
+  height: 500px;
+  background: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+h2 {
+  padding: 10px 15px;
+  border: 2px solid red;
+  text-align: center;
+  margin: 10px 50px;
+  width: 180px;
+  color: #fb520a;
+  border-left: 10px solid #fb520a;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+}
+input:focus {
+  border-bottom: 2px solid #78788c;
+}
+
+input::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+}
+p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #050505;
+}
+button {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #78788c;
+  background: 0;
+  color: #5a5a6e;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+button:hover {
+  background: #78788c;
+  color: #fff;
+}
+
+span {
+  margin: 0 5px 0 15px;
+}
+.contact-btn {
+  padding: 10px 20px;
+  margin: 4rem 5rem;
+  font-weight: 500;
+  width: 50%;
+  border: 2px solid #fb520a;
+  border-radius: 25px;
+  font-size: 20px;
+  background-color: inherit;
+  color: #fb520a;
+}
+.contact-btn:hover {
+  color: whitesmoke;
+  background-color: #fb520a;
+  transition: 500ms ease-in-out;
+}
