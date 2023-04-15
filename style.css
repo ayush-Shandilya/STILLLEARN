@@ -111,6 +111,7 @@ a:hover::after {
     text-decoration: none;
     background: linear-gradient(to right, #CCC 50%, #FFFBBD 50%, #1CFEBA);
     background-size: 200%;
+    background-clip: tex;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: 0.5s ease-out;

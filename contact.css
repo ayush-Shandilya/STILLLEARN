@@ -1,13 +1,14 @@
 body {
   padding: 0;
   margin: 0;
-  background: #59abe3;
-  background: linear-gradient(#8b93ea, #474fa4);
+  background: #b7ddb7;
+  background: linear-gradient(#1c7d8a, #190961);
 }
 .form {
   width: 400px;
   height: 500px;
-  background: #e6e6e6;
+  background: #d6f0bf;
+  background: linear-gradient(#eeebd4, #eee34d, #16e9288e);
   border-radius: 8px;
   box-shadow: 0 0 40px -10px #000;
   margin: calc(50vh - 220px) auto;
@@ -19,12 +20,12 @@ body {
 }
 h2 {
   padding: 10px 15px;
-  border: 2px solid red;
+  border: 2px solid #51ff00;
   text-align: center;
   margin: 10px 50px;
   width: 180px;
-  color: #fb520a;
-  border-left: 10px solid #fb520a;
+  color: #0afb16;
+  border-left: 10px solid #43c506;
 }
 input {
   width: 100%;
@@ -78,14 +79,14 @@ span {
   margin: 4rem 5rem;
   font-weight: 500;
   width: 50%;
-  border: 2px solid #fb520a;
+  border: 2px solid #57e04a;
   border-radius: 25px;
   font-size: 20px;
   background-color: inherit;
-  color: #fb520a;
+  color: #000000;
 }
 .contact-btn:hover {
   color: whitesmoke;
-  background-color: #fb520a;
+  background-color: #4ff027;
   transition: 500ms ease-in-out;
 }
