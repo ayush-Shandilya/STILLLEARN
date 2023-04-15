@@ -40,11 +40,13 @@ ul {
 }
 
 a {
-	color: #333;
+    color: #333;
+	
 	text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
-	color: rgb(43, 194, 29);
+	
+    text-decoration: underline;
+    color: rgb(43, 194, 29);
 }
