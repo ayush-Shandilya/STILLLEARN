@@ -5,14 +5,21 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
-    /* background-color: #0b0e14 ; */
+    
+    
+    
 }
+body{
+    /* background-color: #0b0e14 ; */
+    background:linear-gradient(#0f0f0f,#9b5757,#2cee83,#fcec10);
 
+}
 .hero {
     height: 29vh;
     width: 100%;
     background-size: cover;
     background-position: center;
+   
     
 
 }
@@ -24,6 +31,7 @@ nav {
     padding-top: 40px;
     padding-left: 10%;
     padding-right: 10%;
+    
 
 }
 
@@ -31,6 +39,7 @@ nav {
     .hero {
         height: auto;
         padding: 20px;
+        
     }
 
     nav {
@@ -49,6 +58,7 @@ nav {
         border: none;
         cursor: pointer;
         outline: none;
+        
     }
 
     .cross {
@@ -60,6 +70,7 @@ nav {
         flex-direction: column;
         text-align: center;
         width: 100%;
+        
     }
 
     ul.active {
@@ -74,10 +85,12 @@ nav {
 .logo {
     color: white;
     font-size: 28px;
+    
 }
 
 span {
     color: #1CFEBA;
+    
 }
 
 nav ul li {
@@ -93,10 +106,11 @@ nav ul li a {
     font-size: 25px;
     letter-spacing: 0.5px;
     padding-bottom: 10px;
+    
 }
 
 nav ul li a:hover {
-    color: #1CFEBA;
+    color: #89fe1c;
     text-decoration: none;
     border-bottom: 4px solid #1CFEBA;
     border-radius: 4px;
@@ -116,6 +130,7 @@ a:hover::after {
     -webkit-text-fill-color: transparent;
     transition: 0.5s ease-out;
 }
+
 
 .animated:hover {
     background-position: -100%;
@@ -170,8 +185,10 @@ a:hover::after {
 }
 
 .content-1:hover {
-    border-color: #1DA1F2;
-    background: #1DA1F2;
+    border-color: #020202;
+    background: #000000;
+    background: linear-gradient(#292323, #28e1ee, #2868e0,#1f193f);
+
 }
 
 .content-1:hover a {
@@ -179,17 +196,19 @@ a:hover::after {
 }
 
 .content-3:hover {
-    border-color: #ffe152;
-    background: #ffe152;
+    border-color: #000000;
+    background: #000000;
+    background: linear-gradient(#4b4848, #d9ff01, #e7f711,#313810);
 }
 
 .content-3:hover a {
-    color: #ffe152;
+    color: #7e851e;
 }
 
 .content-2:hover {
-    border-color: #32de84;
-    background: #32de84;
+    border-color: #000000;
+    background: #000000;
+    background: linear-gradient(#4b4848, #43e412, #12c52a,#313810);
 }
 
 .content-2:hover a {
@@ -197,8 +216,9 @@ a:hover::after {
 }
 
 .content-4:hover {
-    border-color: #FF0000;
-    background: #FF0000;;
+    border-color: #000000;
+    background: #000000;
+    background: linear-gradient(#000000, #8d2f04, #f15146,#313810);
 }
 
 .content-4:hover a {
@@ -276,8 +296,9 @@ footer {
     margin-bottom: 10px;
 }
 
-.footer-col ul li a {
-    color: #666;
+.footer-col ul li a:hover{
+   
+    color: #000000;
     text-decoration: none;
     font-size: 16px;
 }
