@@ -46,6 +46,7 @@ a {
 }
 
 a:hover {
-	text-decoration: underline;
+	
+    text-decoration: underline;
     color: rgb(43, 194, 29);
 }
