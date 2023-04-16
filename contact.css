@@ -1,95 +1,78 @@
 body {
-  padding: 0;
-  margin: 0;
-  background: #b7ddb7;
-  background:linear-gradient(#0f0f0f,#9b5757,#2cee83,#fcec10);
-}
-.form {
-  width: 400px;
-  height: 500px;
-  background: #b1aaaa;
-  background: linear-gradient(#fffecc, #fddbdb, #ccc4c48e);
-  border-radius: 8px;
-  box-shadow: 0 0 40px -10px #000;
-  margin: calc(50vh - 220px) auto;
-  padding: 20px 30px;
-  max-width: calc(100vw - 40px);
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-  position: relative;
-}
-h2 {
-  padding: 10px 15px;
-  border: 2px solid #000000;
-  border-radius: 25px;
-  box-shadow: 0 0 40px -10px #000;
-  text-align: center;
-  margin: 10px 50px;
-  width: 180px;
-  color: #000000;
-  border-: 10px solid #000000;
-}
-input {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  background: none;
-  outline: none;
-  resize: none;
-  border: 0;
-  font-weight: 600;
-  font-family: "Montserrat", sans-serif;
-  transition: all 0.3s;
-  border-bottom: 2px solid #000000;
-}
-input:focus {
-  border-bottom: 2px solid #000000;
-}
-
-input::placeholder {
-  font-weight: bold;
-  opacity: 0.5;
-}
-p:before {
-  content: attr(type);
-  display: block;
-  margin: 28px 0 0;
-  font-size: 14px;
-  color: #050505;
-}
-button {
-  float: right;
-  padding: 8px 12px;
-  margin: 8px 0 0;
-  font-family: "Montserrat", sans-serif;
-  border: 2px solid #78788c;
-  background: 0;
-  color: #5a5a6e;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-button:hover {
-  background: #78788c;
-  color: #fff;
-}
-
-span {
-  margin: 0 5px 0 15px;
-}
-.contact-btn {
-  padding: 10px 20px;
-  margin: 4rem 5rem;
-  font-weight: 500;
-  width: 50%;
-  border: 2px solid #000000;
-  border-radius: 25px;
-  font-size: 20px;
-  background-color: inherit;
-  color: #000000;
-}
-.contact-btn:hover {
-  color: whitesmoke;
-  background-color: #000000;
-  transition: 500ms ease-in-out;
-  box-shadow: 0 0 40px -10px #000;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 9px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 5px;
+  }
+  
+  .about-section {
+    
+    padding: 50px;
+    text-align: center;
+    background-color: #2f6842;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .container {
+    padding: 0 16px;
+    border: 1px solid rgb(220, 227, 219);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    background-color: #89e7ad;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
