@@ -2,13 +2,13 @@ body {
   padding: 0;
   margin: 0;
   background: #b7ddb7;
-  background: linear-gradient(#1c7d8a, #190961);
+  background:linear-gradient(#0f0f0f,#9b5757,#2cee83,#fcec10);
 }
 .form {
   width: 400px;
   height: 500px;
-  background: #d6f0bf;
-  background: linear-gradient(#eeebd4, #eee34d, #16e9288e);
+  background: #b1aaaa;
+  background: linear-gradient(#fffecc, #fddbdb, #ccc4c48e);
   border-radius: 8px;
   box-shadow: 0 0 40px -10px #000;
   margin: calc(50vh - 220px) auto;
@@ -20,12 +20,14 @@ body {
 }
 h2 {
   padding: 10px 15px;
-  border: 2px solid #51ff00;
+  border: 2px solid #000000;
+  border-radius: 25px;
+  box-shadow: 0 0 40px -10px #000;
   text-align: center;
   margin: 10px 50px;
   width: 180px;
-  color: #0afb16;
-  border-left: 10px solid #43c506;
+  color: #000000;
+  border-: 10px solid #000000;
 }
 input {
   width: 100%;
@@ -38,10 +40,10 @@ input {
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   transition: all 0.3s;
-  border-bottom: 2px solid #bebed2;
+  border-bottom: 2px solid #000000;
 }
 input:focus {
-  border-bottom: 2px solid #78788c;
+  border-bottom: 2px solid #000000;
 }
 
 input::placeholder {
@@ -79,7 +81,7 @@ span {
   margin: 4rem 5rem;
   font-weight: 500;
   width: 50%;
-  border: 2px solid #57e04a;
+  border: 2px solid #000000;
   border-radius: 25px;
   font-size: 20px;
   background-color: inherit;
@@ -87,6 +89,7 @@ span {
 }
 .contact-btn:hover {
   color: whitesmoke;
-  background-color: #4ff027;
+  background-color: #000000;
   transition: 500ms ease-in-out;
+  box-shadow: 0 0 40px -10px #000;
 }
