@@ -5,22 +5,24 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
-    
-    
-    
-}
-body{
-    /* background-color: #0b0e14 ; */
-    background:linear-gradient(#0f0f0f,#9b5757,#2cee83,#fcec10);
+
+
 
 }
+
+body {
+    /* background-color: #0b0e14 ; */
+    background: linear-gradient(#0f0f0f, #9b5757, #2cee83, #fcec10);
+
+}
+
 .hero {
     height: 29vh;
     width: 100%;
     background-size: cover;
     background-position: center;
-   
-    
+
+
 
 }
 
@@ -31,7 +33,7 @@ nav {
     padding-top: 40px;
     padding-left: 10%;
     padding-right: 10%;
-    
+
 
 }
 
@@ -39,7 +41,7 @@ nav {
     .hero {
         height: auto;
         padding: 20px;
-        
+
     }
 
     nav {
@@ -58,7 +60,7 @@ nav {
         border: none;
         cursor: pointer;
         outline: none;
-        
+
     }
 
     .cross {
@@ -70,7 +72,7 @@ nav {
         flex-direction: column;
         text-align: center;
         width: 100%;
-        
+
     }
 
     ul.active {
@@ -85,12 +87,12 @@ nav {
 .logo {
     color: white;
     font-size: 28px;
-    
+
 }
 
 span {
     color: #1CFEBA;
-    
+
 }
 
 nav ul li {
@@ -106,7 +108,7 @@ nav ul li a {
     font-size: 25px;
     letter-spacing: 0.5px;
     padding-bottom: 10px;
-    
+
 }
 
 nav ul li a:hover {
@@ -187,7 +189,7 @@ a:hover::after {
 .content-1:hover {
     border-color: #020202;
     background: #000000;
-    background: linear-gradient(#292323, #28e1ee, #2868e0,#1f193f);
+    background: linear-gradient(#292323, #28e1ee, #2868e0, #1f193f);
 
 }
 
@@ -198,7 +200,7 @@ a:hover::after {
 .content-3:hover {
     border-color: #000000;
     background: #000000;
-    background: linear-gradient(#4b4848, #d9ff01, #e7f711,#313810);
+    background: linear-gradient(#4b4848, #d9ff01, #e7f711, #313810);
 }
 
 .content-3:hover a {
@@ -208,7 +210,7 @@ a:hover::after {
 .content-2:hover {
     border-color: #000000;
     background: #000000;
-    background: linear-gradient(#4b4848, #43e412, #12c52a,#313810);
+    background: linear-gradient(#4b4848, #43e412, #12c52a, #313810);
 }
 
 .content-2:hover a {
@@ -218,11 +220,12 @@ a:hover::after {
 .content-4:hover {
     border-color: #000000;
     background: #000000;
-    background: linear-gradient(#000000, #8d2f04, #f15146,#313810);
+    background: linear-gradient(#000000, #8d2f04, #f15146, #313810);
 }
 
 .content-4:hover a {
-    color: #FF0000;;
+    color: #FF0000;
+    ;
 }
 
 .content h2 {
@@ -261,9 +264,11 @@ a:hover::after {
 }
 
 footer {
+    margin-bottom: 0px;
     margin-top: 100px;
     width: 100%;
-    padding: 50px 0;
+    padding-top: 50%;
+    padding-bottom: 0px;
 }
 
 .footer-container {
@@ -296,8 +301,8 @@ footer {
     margin-bottom: 10px;
 }
 
-.footer-col ul li a:hover{
-   
+.footer-col ul li a:hover {
+
     color: #000000;
     text-decoration: none;
     font-size: 16px;
@@ -337,4 +342,65 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.footer-col {
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-col a:hover {
+    color: #1a73e8;
+    transform: scale(1.1);
+}
+
+.fa-instagram,
+.fa-github,
+.fa-linkedin {
+    font-size: 32px;
+}
+
+.copyright {
+    margin-top: 40px;
+    color: blue;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.connect {
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    background: linear-gradient(to right, #080808 50%, #3c08fa 50%, #1930b3);
+    background-size: 200%;
+    background-clip: tex;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-out;
+    margin-bottom: 20px;
+}
+
+.connect:hover {
+    background-position: -100%;
 }
