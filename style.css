@@ -9,12 +9,29 @@
 
 
 }
+:root{
+    --gradient: linear-gradient(
+      28deg,
+            #719bbe,
+            #f7bd9c,
+            #ecf7b3,
+            #c6fabb,
+            #ebbdbd
+   );
+   }
 
 body {
     /* background-color: #0b0e14 ; */
-    background: linear-gradient(#0f0f0f, #9b5757, #2cee83, #fcec10);
+    background-size: 500%;
+    background-image: var(--gradient);
+    animation:bg-animation 15s infinite reverse ;
 
 }
+@keyframes bg-animation {
+    0% {background-position: left}
+      50% {background-position: right}
+      100% {background-position: left}
+}  
 
 .hero {
     height: 29vh;
@@ -91,7 +108,7 @@ nav {
 }
 
 span {
-    color: #1CFEBA;
+    color: rgb(19, 34, 29);
 
 }
 
@@ -125,7 +142,7 @@ a:hover::after {
 
 .animated {
     text-decoration: none;
-    background: linear-gradient(to right, #CCC 50%, #FFFBBD 50%, #1CFEBA);
+    background: linear-gradient(to right, #000000 50%, #052261 50%, #12e69f);
     background-size: 200%;
     background-clip: tex;
     -webkit-background-clip: text;
@@ -164,7 +181,7 @@ a:hover::after {
     margin: 20px;
     padding: 20px;
     border: 2px solid black;
-    border-radius: 4px;
+    border-radius: 45px;
     transition: all .3s ease;
 }
 
@@ -179,6 +196,7 @@ a:hover::after {
 
 .content:hover {
     color: white;
+    box-shadow: 0 0 70px -10px #000;
 }
 
 .content:hover a {
@@ -189,7 +207,7 @@ a:hover::after {
 .content-1:hover {
     border-color: #020202;
     background: #000000;
-    background: linear-gradient(#292323, #28e1ee, #2868e0, #1f193f);
+    background: linear-gradient(#292323, #131414, #1c1e20,#474545);
 
 }
 
@@ -200,7 +218,7 @@ a:hover::after {
 .content-3:hover {
     border-color: #000000;
     background: #000000;
-    background: linear-gradient(#4b4848, #d9ff01, #e7f711, #313810);
+    background: linear-gradient(#292323, #131414, #1c1e20,#474545);
 }
 
 .content-3:hover a {
@@ -210,7 +228,7 @@ a:hover::after {
 .content-2:hover {
     border-color: #000000;
     background: #000000;
-    background: linear-gradient(#4b4848, #43e412, #12c52a, #313810);
+    background: linear-gradient(#292323, #131414, #1c1e20,#474545);
 }
 
 .content-2:hover a {
@@ -220,7 +238,7 @@ a:hover::after {
 .content-4:hover {
     border-color: #000000;
     background: #000000;
-    background: linear-gradient(#000000, #8d2f04, #f15146, #313810);
+    background: linear-gradient(#292323, #131414, #1c1e20,#474545);
 }
 
 .content-4:hover a {

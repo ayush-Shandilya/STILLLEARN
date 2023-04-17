@@ -1,9 +1,27 @@
+:root{
+  --gradient: linear-gradient(
+    28deg,
+          #719bbe,
+          #f7bd9c,
+          #ecf7b3,
+          #c6fabb,
+          #ebbdbd
+ );
+ }
 body {
   padding: 0;
   margin: 0;
   background: #b7ddb7;
-  background:linear-gradient(#0f0f0f,#9b5757,#2cee83,#fcec10);
+  background-size: 500%;
+    background-image: var(--gradient);
+    animation:bg-animation 15s infinite reverse ;
+
 }
+@keyframes bg-animation {
+  0% {background-position: left}
+    50% {background-position: right}
+    100% {background-position: left}
+}  
 .form {
   width: 400px;
   height: 500px;
@@ -20,14 +38,13 @@ body {
 }
 h2 {
   padding: 10px 15px;
-  border: 2px solid #000000;
-  border-radius: 25px;
-  box-shadow: 0 0 40px -10px #000;
+ 
+  
   text-align: center;
   margin: 10px 50px;
   width: 180px;
   color: #000000;
-  border: 10px solid #000000;
+ 
 }
 input {
   width: 100%;
