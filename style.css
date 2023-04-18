@@ -170,7 +170,7 @@ a:hover::after {
 }
 
 .services {
-    display: flex;
+    display:grid;
     align-items: center;
 }
 
@@ -246,6 +246,16 @@ a:hover::after {
     ;
 }
 
+.content-5:hover {
+    border-color: #000000;
+    background: #000000;
+    background: linear-gradient(#292323, #131414, #1c1e20,#474545);
+}
+
+.content-5:hover a {
+    color: #FF0000;
+    ;
+}
 .content h2 {
     font-size: 30px;
     margin: 16px 0;
