@@ -16,8 +16,6 @@ body{
     width: 100%;
     background-size: cover;
     background-position: center;
-    
-
 }
 
 nav {
@@ -28,7 +26,6 @@ nav {
     padding-left: 10%;
     padding-right: 10%;
     background-color:#e8bbcc;
-
 }
 
 @media only screen and (max-width: 768px) {
