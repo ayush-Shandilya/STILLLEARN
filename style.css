@@ -206,8 +206,8 @@ a:hover::after {
 
 .content-1:hover {
     border-color: #020202;
-    background: #000000;
-    background: linear-gradient(#292323, #131414, #1c1e20,#474545);
+    background: #d1d1cf;
+    background: linear-gradient(#4584B6, #FFDE57);
 
 }
 
@@ -218,7 +218,7 @@ a:hover::after {
 .content-3:hover {
     border-color: #000000;
     background: #000000;
-    background: linear-gradient(#292323, #131414, #1c1e20,#474545);
+    background: linear-gradient(#FFA500, #FFFF00);
 }
 
 .content-3:hover a {
@@ -228,7 +228,7 @@ a:hover::after {
 .content-2:hover {
     border-color: #000000;
     background: #000000;
-    background: linear-gradient(#292323, #131414, #1c1e20,#474545);
+    background: linear-gradient(#A4C639, #000000);
 }
 
 .content-2:hover a {
@@ -238,7 +238,7 @@ a:hover::after {
 .content-4:hover {
     border-color: #000000;
     background: #000000;
-    background: linear-gradient(#292323, #131414, #1c1e20,#474545);
+    background: linear-gradient(#E34F26, #FFFFFF);
 }
 
 .content-4:hover a {
@@ -249,12 +249,20 @@ a:hover::after {
 .content-5:hover {
     border-color: #000000;
     background: #000000;
-    background: linear-gradient(#292323, #131414, #1c1e20,#474545);
+    background: linear-gradient(#0000ff,#6a5acd);
 }
 
 .content-5:hover a {
     color: #FF0000;
     ;
+}
+.content-6:hover{
+    border-color: #000000;
+    background: #000000;
+    background:linear-gradient(#F7DF1E,#FFFFFF);
+}
+.content-6:hover a{
+    color: #F7DF1E;
 }
 .content h2 {
     font-size: 30px;
