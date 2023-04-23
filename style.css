@@ -264,6 +264,16 @@ a:hover::after {
 .content-6:hover a{
     color: #F7DF1E;
 }
+.content-8:hover {
+    border-color: #000000;
+    background: #000000;
+    background: linear-gradient(#61DBFB, #6a5acd);
+}
+
+.content-8:hover a {
+    color: #61DBFB;
+
+}
 .content h2 {
     font-size: 30px;
     margin: 16px 0;
