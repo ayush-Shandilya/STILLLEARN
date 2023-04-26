@@ -1,112 +1,119 @@
-:root{
-  --gradient: linear-gradient(
-    28deg,
-          #719bbe,
-          #f7bd9c,
-          #ecf7b3,
-          #c6fabb,
-          #ebbdbd
- );
- }
-body {
-  padding: 0;
-  margin: 0;
-  background: #b7ddb7;
-  background-size: 500%;
-    background-image: var(--gradient);
-    animation:bg-animation 15s infinite reverse ;
+:root {
+    --gradient: linear-gradient( 28deg, #719bbe, #f7bd9c, #ecf7b3, #c6fabb, #ebbdbd);
+}
 
+body {
+    padding: 0;
+    margin: 0;
+    background: #b7ddb7;
+    background-size: 500%;
+    background-image: var(--gradient);
+    animation: bg-animation 15s infinite reverse;
 }
+
 @keyframes bg-animation {
-  0% {background-position: left}
-    50% {background-position: right}
-    100% {background-position: left}
-}  
+    0% {
+        background-position: left
+    }
+    50% {
+        background-position: right
+    }
+    100% {
+        background-position: left
+    }
+}
+
 .form {
-  width: 400px;
-  height: 500px;
-  background: #b1aaaa;
-  background: linear-gradient(#fffecc, #fddbdb, #ccc4c48e);
-  border-radius: 8px;
-  box-shadow: 0 0 40px -10px #000;
-  margin: calc(50vh - 220px) auto;
-  padding: 20px 30px;
-  max-width: calc(100vw - 40px);
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-  position: relative;
+    width: 400px;
+    height: 500px;
+    background: #b1aaaa;
+    background: linear-gradient(#fffecc, #fddbdb, #ccc4c48e);
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(50vh - 220px) auto;
+    padding: 20px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
 }
+
 h2 {
-  padding: 10px 15px;
- 
-  
-  text-align: center;
-  margin: 10px 50px;
-  width: 180px;
-  color: #000000;
- 
+    padding: 10px 15px;
+    text-align: center;
+    margin: 10px 50px;
+    width: 180px;
+    color: #000000;
 }
+
 input {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  background: none;
-  outline: none;
-  resize: none;
-  border: 0;
-  font-weight: 600;
-  font-family: "Montserrat", sans-serif;
-  transition: all 0.3s;
-  border-bottom: 2px solid #000000;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.3s;
+    border-bottom: 2px solid #000000;
+    font-size: 17px;
 }
+
 input:focus {
-  border-bottom: 2px solid #000000;
+    border-bottom: 2px solid #000000;
 }
 
 input::placeholder {
-  font-weight: bold;
-  opacity: 0.5;
+    font-weight: bold;
+    opacity: 0.5;
 }
+
 p:before {
-  content: attr(type);
-  display: block;
-  margin: 28px 0 0;
-  font-size: 14px;
-  color: #050505;
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 14px;
+    color: #050505;
 }
+
 button {
-  float: right;
-  padding: 8px 12px;
-  margin: 8px 0 0;
-  font-family: "Montserrat", sans-serif;
-  border: 2px solid #78788c;
-  background: 0;
-  color: #5a5a6e;
-  cursor: pointer;
-  transition: all 0.3s;
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid #78788c;
+    background: 0;
+    color: #5a5a6e;
+    cursor: pointer;
+    transition: all 0.3s;
 }
+
 button:hover {
-  background: #78788c;
-  color: #fff;
+    background: #78788c;
+    color: #fff;
 }
 
 span {
-  margin: 0 5px 0 15px;
+    margin: 0 5px 0 15px;
 }
+
 .contact-btn {
-  padding: 10px 20px;
-  margin: 4rem 5rem;
-  font-weight: 500;
-  width: 50%;
-  border: 2px solid #000000;
-  border-radius: 25px;
-  font-size: 20px;
-  background-color: inherit;
-  color: #000000;
+    padding: 10px 20px;
+    margin: 4rem 5rem;
+    font-weight: 500;
+    width: 50%;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: inherit;
+    color: #000000;
 }
+
 .contact-btn:hover {
-  color: whitesmoke;
-  background-color: #000000;
-  transition: 500ms ease-in-out;
-  box-shadow: 0 0 40px -10px #000;
+    color: whitesmoke;
+    background-color: #000000;
+    transition: 200ms ease-in;
+    box-shadow: 0 0 40px -10px #000;
 }
