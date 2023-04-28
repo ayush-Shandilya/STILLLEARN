@@ -29,8 +29,12 @@ h3 {
   font-size: 2em;
   border: 2px solid #fb520a;
   padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   border-left: 10px solid #fb520a;
+  border-bottom:15px solid #fb520a ;
+  border-radius: 10px 5px 10px 0px;
 }
 
 .left {
@@ -48,6 +52,7 @@ h3 {
   margin: 20px;
   box-shadow: -20px -10px 3px #fb520a;
   border: 2px solid #fb520a;
+  border-radius: 10px;
 }
 .about-head-p {
   font-size: 40px;
@@ -86,6 +91,8 @@ span {
   font-size: 25px;
   background-color: inherit;
   color: #fb520a;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .contact-btn:hover {
   color: whitesmoke;
